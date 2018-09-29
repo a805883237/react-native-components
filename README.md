@@ -3,6 +3,9 @@
 * 图片占位符：
 https://github.com/a805883237/react-native-components/tree/master/components/imagePlaceHolder
 
+* 对话框 dialog：
+https://github.com/a805883237/react-native-components/tree/master/components/dialog
+
 * 倒计时：
 https://github.com/a805883237/react-native-components/tree/master/components/countDown
 
