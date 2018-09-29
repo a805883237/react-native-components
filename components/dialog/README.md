@@ -20,7 +20,9 @@ btns 取值：
 
 * pop 三个按钮时 ， 显示有bug ，不建议使用
 截图：
+
 ![效果预览](https://raw.githubusercontent.com/a805883237/react-native-components/master/impress_img/dialogbox_pop_3btns.jpg)
+
 ```js
 this.dialogbox.pop({
 		title: 'Animals',
@@ -49,7 +51,9 @@ this.dialogbox.pop({
 ```
 * pop 两个按钮时 ，显示正常
 截图：
+
 ![效果预览](https://raw.githubusercontent.com/a805883237/react-native-components/master/impress_img/dialogbox_pop_2btns.jpg)
+
 ```js
 this.dialogbox.pop({
 		title: 'Animals',
@@ -72,7 +76,9 @@ this.dialogbox.pop({
 ```
 * pop 一个按钮时 ，显示正常
 截图：
+
 ![效果预览](https://raw.githubusercontent.com/a805883237/react-native-components/master/impress_img/dialogbox_pop_1btn.jpg)
+
 ```js
 this.dialogbox.pop({
 		title: 'Animals',
@@ -98,7 +104,9 @@ this.dialogbox.pop({
 **可以多个message ,多个间用, 分开**
 * alert 显示两行text，底部只有一个按钮 "OK" , 无限竖行排列
 截图：
+
 ![效果预览](https://raw.githubusercontent.com/a805883237/react-native-components/master/impress_img/dialogbox_alert_2text.jpg)
+
 ```js
 this.dialogbox.alert('Ribbit!',"cccccc");
 ```
@@ -113,7 +121,9 @@ this.dialogbox.alert('Ribbit!',"cccccc");
 | btns | array<object> | false | "OK" |
 * tip 显示两行text，底部只有一个按钮 "OK" , 无限竖行排列
 截图：
+
 ![效果预览](https://raw.githubusercontent.com/a805883237/react-native-components/master/impress_img/dialogbox_tip_2text.jpg)
+
 ```js
 this.dialogbox.tip({
 	content: ['come on!', 'go!'],
@@ -152,7 +162,9 @@ this.dialogbox.tip({
 | callback | function | null |
 
 截图：
+
 ![效果预览](https://raw.githubusercontent.com/a805883237/react-native-components/master/impress_img/dialogbox_confirm_all.jpg)
+
 ```js
 this.dialogbox.confirm({
 	title: 'title',
