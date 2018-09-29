@@ -1,6 +1,6 @@
 # 常用对话框
 
-参考链接 ： https://github.com/victoriafrench/react-native-dialogbox
+> 参考链接 ： https://github.com/victoriafrench/react-native-dialogbox
 
 ### 截面截图 && 参考代码
 ##### dialogbox.pop 
@@ -9,7 +9,9 @@
 | title | string | false |
 | content | string\number\array<string\number> | true |
 | btns | array<object> | false |
+
 btns 取值：
+
 | 属性 | 类型 | 是否必须 | 默认值 |
 | ------ | ------ | ------ | ------ | 
 | title | string | false | "OK" |
@@ -87,10 +89,12 @@ this.dialogbox.pop({
 ```
 
 
-##### dialogbox.alert 
+##### dialogbox.alert
+ 
 | 属性 | 类型 | 是否必须 |
 | ------ | ------ | ------ |
 | message | string | true |
+
 **可以多个message ,多个间用, 分开**
 * alert 显示两行text，底部只有一个按钮 "OK" , 无限竖行排列
 截图：
@@ -125,7 +129,7 @@ this.dialogbox.tip({
 
 ##### dialogbox.confirm 
 | 属性 | 类型 | 是否必须 | 默认值 |
-| ------ | ------ | ------ | ------- |
+| ---------- | ---------- | ---------- | ----------- |
 | title | string | false | Tip |
 | content | string\number\array<string\number> | true | null |
 | ok | object | false | {title:"OK"} |
@@ -133,15 +137,16 @@ this.dialogbox.tip({
 
 **ok 取值**
 
-| 属性 | 类型 | 默认值 | 默认值 |
-| ------ | ------ | ------ |
+| 属性 | 类型 | 默认值 |
+| ---------- | ---------- | ---------- |
 | title | string | OK |
 | style | object | null |
 | callback | function | null |
+
 **cancel 取值**
 
 | 属性 | 类型 | 默认值 | 默认值 |
-| ------ | ------ | ------ |
+| ---------- | ---------- | ---------- |
 | title | string | Cancel |
 | style | object | null |
 | callback | function | null |
