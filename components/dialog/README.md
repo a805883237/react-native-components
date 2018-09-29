@@ -145,7 +145,7 @@ this.dialogbox.tip({
 
 **cancel 取值**
 
-| 属性 | 类型 | 默认值 | 默认值 |
+| 属性 | 类型 | 默认值 |
 | ---------- | ---------- | ---------- |
 | title | string | Cancel |
 | style | object | null |
